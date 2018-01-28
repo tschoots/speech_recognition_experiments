@@ -1,0 +1,10 @@
+# installation of the proper python library
+https://pypi.python.org/pypi/SpeechRecognition/
+
+# installation of PyAudio failed solved it this with installing the following libraries.
+sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg libav-tools
+https://github.com/SlapBot/stephanie-va/issues/8
+
+
+# documentation reference
+https://github.com/Uberi/speech_recognition/blob/master/reference/library-reference.rst
