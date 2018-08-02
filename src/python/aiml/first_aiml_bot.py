@@ -15,6 +15,10 @@
 # golang datascience libraries , move this to the appropriate spot
 # https://github.com/gopherdata/resources/blob/master/tooling/README.md#nlp
 
+# conference in Switserland
+# http://www.aiml2018.unibe.ch/
+# http://www.aiml2018.unibe.ch/AiML2018_accepted_papers.html
+
 import aiml
 import os
 
