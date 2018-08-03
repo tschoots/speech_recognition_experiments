@@ -10,7 +10,7 @@ import numpy as np
 def main():
     print("hallo")
 
-    prs = Presentation("Bathroom_prr.pptx")
+    prs = Presentation("Bathroom_last.pptx")
 
     # text_runs wil be populated with a list of strings,
     # one for each text run in the presentation
@@ -75,7 +75,7 @@ def main():
 
     #print(text_runs)
     np.savetxt("text.txt", text_runs, delimiter=" ", newline="\n", fmt="%s")
-    np.savetxt("dialog.txt", dialog_runs, delimiter=" ", newline="\n", fmt="%s")
+    np.savetxt("dialog_last.txt", dialog_runs, delimiter=" ", newline="\n", fmt="%s")
 
 
 
